@@ -1,0 +1,11 @@
+logster (0.0.1-1+nectar1) precise-havana; urgency=medium
+
+  * Backported
+
+ -- Russell Sim <russell.sim@gmail.com>  Mon, 01 Sep 2014 16:39:12 +1000
+
+logster (0.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #728980)
+
+ -- Andreas Rütten <AndreasRuetten@gmx.de>  Mon, 16 Dec 2013 10:44:48 +0100

@@ -1,0 +1,20 @@
+From: Daniel Aquino <mr.danielaquino@gmail.com>
+Date: Wed, 31 Oct 2012 16:35:37 -0400
+Subject: adding logster/parsers to be packaged with the egg
+Origin: upstream, https://github.com/etsy/logster/commit/57de61a3d9fe3f21a9456984fb7fb39b8603b660
+Bug: https://github.com/etsy/logster/pull/25
+
+--- a/setup.py
++++ b/setup.py
+@@ -12,7 +12,10 @@
+     description='Parse log files, generate metrics for Graphite and Ganglia',
+     author='Etsy',
+     url='https://github.com/etsy/logster',
+-    packages=['logster'],
++    packages=[
++        'logster',
++        'logster/parsers'
++        ],
+     zip_safe=False,
+     scripts=[
+         'bin/logster'

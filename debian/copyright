@@ -1,0 +1,86 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: logster
+Source: http://github.com/etsy/logster
+
+Files: *
+Copyright: 2013 Etsy,Inc.
+License: GPL-3+
+
+Files: bin/logster
+Copyright: 2011 Etsy,Inc.
+	   2008 Linden Research, Inc.
+License: GPL-3+
+
+Files: logster/logster_helper.py
+Copyright: 2011 Etsy,Inc.
+License: GPL-3+
+
+Files: logster/parsers/Log4Logster.py
+Copyright: 2011 Etsy,Inc.
+	   2011 Mike Babineau <michael.babineau@gmail.com>, EA2D <http://ea2d.com>
+License: GPL-3+
+
+Files: logster/parsers/MetricLogster.py
+Copyright: 2011 Etsy,Inc.
+	   2011 Mark Crossfield <mark@markcrossfield.co.uk>
+	   2011 Jeff Blaine
+License: GPL-3+
+
+Files: logster/parsers/PostfixLogster.py
+Copyright: 2011 Bronto Software, Inc.
+License: GPL-3+
+
+Files: logster/parsers/SampleLogster.py
+Copyright: 2011 Etsy, Inc.
+License: GPL-3+
+
+Files: logster/parsers/SquidLogster.py
+Copyright: 2011 Etsy, Inc.
+License: GPL-3+
+
+Files: logster/parsers/stats_helper.py
+Copyright: 2011 Mark Crossfield <mark@markcrossfield.co.uk>
+License: GPL-3+
+
+Files: logster/parsers/logster_helper.py
+Copyright: 2011 Etsy, Inc.
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2013 Andreas Rütten <AndreasRuetten@gmx.de>
+License: GPL-2+
+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or (at
+ your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 3 can be found in "/usr/share/common-licenses/GPL-3".
